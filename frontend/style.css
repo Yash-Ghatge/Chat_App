@@ -1,0 +1,51 @@
+img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: auto;
+    margin-bottom:10px ;
+}
+body{
+   background-image: linear-gradient(rgb(255,255,255),rgb(130, 54, 130));
+   height:100vh ;
+}
+#container{
+    display: block;
+    margin: auto;
+    width: 60%;
+    border: 2px solid black;
+    height: 70%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow-y: auto;
+
+}
+.message{
+    background-color: gray;
+    padding: 5px;
+    margin: 10px;
+   
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.left{
+    float: left;
+    clear: both;
+}
+input{
+    height: 20px;
+    border-radius: 5px;
+    width: 57%;
+    border: 2px solid black;
+}
+.btn{
+    border: 2px solid black;
+}
+#form{
+    display:flex;
+    justify-content: center;
+}
